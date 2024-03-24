@@ -1,0 +1,2 @@
+/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc libconfig_reader.a CMakeFiles/config_reader.dir/utils/config_reader/src/config_reader.c.o
+/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib libconfig_reader.a

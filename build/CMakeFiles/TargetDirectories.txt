@@ -1,0 +1,5 @@
+/home/abarcelos/miicare/build/CMakeFiles/blu_scan.dir
+/home/abarcelos/miicare/build/CMakeFiles/ble_scan.dir
+/home/abarcelos/miicare/build/CMakeFiles/config_reader.dir
+/home/abarcelos/miicare/build/CMakeFiles/edit_cache.dir
+/home/abarcelos/miicare/build/CMakeFiles/rebuild_cache.dir

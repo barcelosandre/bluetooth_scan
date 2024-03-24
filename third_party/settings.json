@@ -1,0 +1,9 @@
+{
+  "max_devices": 255,
+  "scan_interval_minutes": 1,
+  "scan_duration_seconds": 30,
+  "devices_allowed": [
+    "4C:D5:77:44:09:88",
+    "00:00:00:00:FF:01"
+  ]
+}

@@ -1,0 +1,1 @@
+/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf CMakeFiles/blu_scan.dir/src/blu_scan.c.o -o blu_scan  -Wl,-rpath,/home/abarcelos/miicare/third_party/lib ../third_party/lib/libbluetooth.so.3.19.3 ../third_party/lib/libjson-c.so.5.1.0 libconfig_reader.a 

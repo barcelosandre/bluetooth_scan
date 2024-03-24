@@ -1,0 +1,296 @@
+The target system is: Linux -  - arm
+The host system is: Linux - 5.15.146.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/abarcelos/miicare/build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/abarcelos/miicare/build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/abarcelos/miicare/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19458/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19458.dir/build.make CMakeFiles/cmTC_19458.dir/build
+gmake[1]: Entering directory '/home/abarcelos/miicare/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o
+/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf   -v -o CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+Target: arm-linux-gnueabihf
+Configured with: ../gcc-10-20210109/configure --prefix=/opt/rpi/rpi-gcc-10.2.1 --target=arm-linux-gnueabihf --enable-languages=c,c++ --with-fpu=vfp --with-float=hard --disable-multilib --enable-multiarch CXXFLAGS='-O2 --std=c++14' --with-arch=armv7-a --with-mode=thumb --with-sysroot=/opt/rpi/sysroot --with-pkgversion='Luca Carlon 20211118' --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20210109 (Luca Carlon 20211118) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfp' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/10.2.1/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/ -isysroot /home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=vfp -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccoxl4t5.s
+GNU C17 (Luca Carlon 20211118) version 10.2.1 20210109 (arm-linux-gnueabihf)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/include"
+ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/local/include/arm-linux-gnueabihf"
+ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/local/include"
+ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed"
+ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include"
+ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/include/arm-linux-gnueabihf"
+ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include
+End of search list.
+GNU C17 (Luca Carlon 20211118) version 10.2.1 20210109 (arm-linux-gnueabihf)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2b68e878e0b3a9840c93dae7ea6255e6
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfp' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o /tmp/ccoxl4t5.s
+GNU assembler version 2.35.2 (arm-linux-gnueabihf) using BFD version (GNU Binutils) 2.35.2
+COMPILER_PATH=/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/10.2.1/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/lib/:/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfp' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+Linking C static library libcmTC_19458.a
+/usr/bin/cmake -P CMakeFiles/cmTC_19458.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19458.dir/link.txt --verbose=1
+/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc libcmTC_19458.a CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o
+/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib libcmTC_19458.a
+gmake[1]: Leaving directory '/home/abarcelos/miicare/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include]
+    add: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed]
+    add: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include]
+  end of search list found
+  collapse include dir [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include] ==> [/home/abarcelos/x-tools/arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/10.2.1/include]
+  collapse include dir [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed] ==> [/home/abarcelos/x-tools/arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed]
+  collapse include dir [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include] ==> [/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include]
+  implicit include dirs: [/home/abarcelos/x-tools/arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/10.2.1/include;/home/abarcelos/x-tools/arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed;/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/abarcelos/miicare/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19458/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19458.dir/build.make CMakeFiles/cmTC_19458.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/abarcelos/miicare/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf   -v -o CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../gcc-10-20210109/configure --prefix=/opt/rpi/rpi-gcc-10.2.1 --target=arm-linux-gnueabihf --enable-languages=c c++ --with-fpu=vfp --with-float=hard --disable-multilib --enable-multiarch CXXFLAGS='-O2 --std=c++14' --with-arch=armv7-a --with-mode=thumb --with-sysroot=/opt/rpi/sysroot --with-pkgversion='Luca Carlon 20211118' --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.1 20210109 (Luca Carlon 20211118) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfp' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/10.2.1/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/ -isysroot /home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=vfp -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccoxl4t5.s]
+  ignore line: [GNU C17 (Luca Carlon 20211118) version 10.2.1 20210109 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/include"]
+  ignore line: [ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/local/include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include]
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed]
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Luca Carlon 20211118) version 10.2.1 20210109 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 2b68e878e0b3a9840c93dae7ea6255e6]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfp' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o /tmp/ccoxl4t5.s]
+  ignore line: [GNU assembler version 2.35.2 (arm-linux-gnueabihf) using BFD version (GNU Binutils) 2.35.2]
+  ignore line: [COMPILER_PATH=/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/10.2.1/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/lib/:/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfp' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [Linking C static library libcmTC_19458.a]
+  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_19458.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19458.dir/link.txt --verbose=1]
+  ignore line: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc libcmTC_19458.a CMakeFiles/cmTC_19458.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib libcmTC_19458.a]
+  ignore line: [gmake[1]: Leaving directory '/home/abarcelos/miicare/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/abarcelos/miicare/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2c19/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2c19.dir/build.make CMakeFiles/cmTC_e2c19.dir/build
+gmake[1]: Entering directory '/home/abarcelos/miicare/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o
+/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ --sysroot=/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf   -v -o CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+Target: arm-linux-gnueabihf
+Configured with: ../gcc-10-20210109/configure --prefix=/opt/rpi/rpi-gcc-10.2.1 --target=arm-linux-gnueabihf --enable-languages=c,c++ --with-fpu=vfp --with-float=hard --disable-multilib --enable-multiarch CXXFLAGS='-O2 --std=c++14' --with-arch=armv7-a --with-mode=thumb --with-sysroot=/opt/rpi/sysroot --with-pkgversion='Luca Carlon 20211118' --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20210109 (Luca Carlon 20211118) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/10.2.1/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/ -isysroot /home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=vfp -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccrZHX5H.s
+GNU C++14 (Luca Carlon 20211118) version 10.2.1 20210109 (arm-linux-gnueabihf)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1"
+ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1/arm-linux-gnueabihf/."
+ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1/backward"
+ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/include"
+ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/local/include/arm-linux-gnueabihf"
+ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/local/include"
+ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed"
+ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include"
+ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/include/arm-linux-gnueabihf"
+ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1/arm-linux-gnueabihf/.
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1/backward
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include
+End of search list.
+GNU C++14 (Luca Carlon 20211118) version 10.2.1 20210109 (arm-linux-gnueabihf)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7ef26b6aaf2fddff0a007f13f7992f03
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrZHX5H.s
+GNU assembler version 2.35.2 (arm-linux-gnueabihf) using BFD version (GNU Binutils) 2.35.2
+COMPILER_PATH=/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/10.2.1/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/lib/:/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+Linking CXX static library libcmTC_e2c19.a
+/usr/bin/cmake -P CMakeFiles/cmTC_e2c19.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2c19.dir/link.txt --verbose=1
+/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc libcmTC_e2c19.a CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o
+/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib libcmTC_e2c19.a
+gmake[1]: Leaving directory '/home/abarcelos/miicare/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1]
+    add: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1/arm-linux-gnueabihf/.]
+    add: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1/backward]
+    add: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include]
+    add: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed]
+    add: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include]
+  end of search list found
+  collapse include dir [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1] ==> [/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/10.2.1]
+  collapse include dir [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1/arm-linux-gnueabihf/.] ==> [/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/10.2.1/arm-linux-gnueabihf]
+  collapse include dir [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1/backward] ==> [/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/10.2.1/backward]
+  collapse include dir [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include] ==> [/home/abarcelos/x-tools/arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/10.2.1/include]
+  collapse include dir [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed] ==> [/home/abarcelos/x-tools/arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed]
+  collapse include dir [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include] ==> [/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include]
+  implicit include dirs: [/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/10.2.1;/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/10.2.1/arm-linux-gnueabihf;/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/10.2.1/backward;/home/abarcelos/x-tools/arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/10.2.1/include;/home/abarcelos/x-tools/arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed;/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/abarcelos/miicare/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2c19/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2c19.dir/build.make CMakeFiles/cmTC_e2c19.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/abarcelos/miicare/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ --sysroot=/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf   -v -o CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../gcc-10-20210109/configure --prefix=/opt/rpi/rpi-gcc-10.2.1 --target=arm-linux-gnueabihf --enable-languages=c c++ --with-fpu=vfp --with-float=hard --disable-multilib --enable-multiarch CXXFLAGS='-O2 --std=c++14' --with-arch=armv7-a --with-mode=thumb --with-sysroot=/opt/rpi/sysroot --with-pkgversion='Luca Carlon 20211118' --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.1 20210109 (Luca Carlon 20211118) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/10.2.1/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/ -isysroot /home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=vfp -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccrZHX5H.s]
+  ignore line: [GNU C++14 (Luca Carlon 20211118) version 10.2.1 20210109 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1"]
+  ignore line: [ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1/arm-linux-gnueabihf/."]
+  ignore line: [ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1/backward"]
+  ignore line: [ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/include"]
+  ignore line: [ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/local/include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1]
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1/arm-linux-gnueabihf/.]
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include/c++/10.2.1/backward]
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include]
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/include-fixed]
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Luca Carlon 20211118) version 10.2.1 20210109 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7ef26b6aaf2fddff0a007f13f7992f03]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [ /home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrZHX5H.s]
+  ignore line: [GNU assembler version 2.35.2 (arm-linux-gnueabihf) using BFD version (GNU Binutils) 2.35.2]
+  ignore line: [COMPILER_PATH=/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/10.2.1/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../libexec/gcc/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/:/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/10.2.1/../../../../arm-linux-gnueabihf/lib/:/home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [Linking CXX static library libcmTC_e2c19.a]
+  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_e2c19.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2c19.dir/link.txt --verbose=1]
+  ignore line: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc libcmTC_e2c19.a CMakeFiles/cmTC_e2c19.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/abarcelos/x-tools/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib libcmTC_e2c19.a]
+  ignore line: [gmake[1]: Leaving directory '/home/abarcelos/miicare/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
