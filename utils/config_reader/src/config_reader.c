@@ -26,12 +26,12 @@ Config read_config(const char *filename) {
     config.scan_interval_minutes = json_object_get_int(jscan_interval_minutes);
     config.scan_duration_seconds = json_object_get_int(jscan_duration_seconds);
 
-    config.devices_allowed_count = json_object_array_length(jdevices_allowed);
-    config.devices_allowed = malloc(config.devices_allowed_count * sizeof(char*));
+    config.allowed_devices_count = json_object_array_length(jdevices_allowed);
+    config.allowed_devices = malloc(config.allowed_devices_count * sizeof(char*));
 
-    for (size_t i = 0; i < config.devices_allowed_count; i++) {
+    for (size_t i = 0; i < config.allowed_devices_count; i++) {
         jdevice = json_object_array_get_idx(jdevices_allowed, i);
-        config.devices_allowed[i] = strdup(json_object_get_string(jdevice));
+        config.allowed_devices[i] = strdup(json_object_get_string(jdevice));
     }
 
     json_object_put(parsed_json);

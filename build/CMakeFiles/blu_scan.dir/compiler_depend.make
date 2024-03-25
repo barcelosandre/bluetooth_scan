@@ -95,6 +95,9 @@ CMakeFiles/blu_scan.dir/src/blu_scan.c.o: ../src/blu_scan.c \
   /home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include/bits/in.h \
   ../third_party/include/bluetooth/hci.h \
   ../third_party/include/bluetooth/hci_lib.h \
+  ../third_party/include/bluetooth/rfcomm.h \
+  ../third_party/include/bluetooth/sdp.h \
+  ../third_party/include/bluetooth/sdp_lib.h \
   ../third_party/include/json-c/json.h \
   ../third_party/include/json-c/arraylist.h \
   ../third_party/include/json-c/debug.h \
@@ -113,8 +116,6 @@ CMakeFiles/blu_scan.dir/src/blu_scan.c.o: ../src/blu_scan.c \
   ../utils/config_reader/include/config_reader.h
 
 
-../utils/config_reader/include/config_reader.h:
-
 ../third_party/include/json-c/json_tokener.h:
 
 ../third_party/include/json-c/json_inttypes.h:
@@ -122,6 +123,10 @@ CMakeFiles/blu_scan.dir/src/blu_scan.c.o: ../src/blu_scan.c \
 ../third_party/include/json-c/json_c_version.h:
 
 ../third_party/include/json-c/debug.h:
+
+../utils/config_reader/include/config_reader.h:
+
+../third_party/include/bluetooth/sdp.h:
 
 ../third_party/include/bluetooth/hci_lib.h:
 
@@ -171,9 +176,13 @@ CMakeFiles/blu_scan.dir/src/blu_scan.c.o: ../src/blu_scan.c \
 
 ../third_party/include/json-c/json_types.h:
 
+../third_party/include/bluetooth/sdp_lib.h:
+
 /home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include/bits/types/clock_t.h:
 
 ../third_party/include/json-c/printbuf.h:
+
+../third_party/include/bluetooth/rfcomm.h:
 
 /home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include/byteswap.h:
 

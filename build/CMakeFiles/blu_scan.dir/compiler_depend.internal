@@ -96,6 +96,9 @@ CMakeFiles/blu_scan.dir/src/blu_scan.c.o
  /home/abarcelos/x-tools/arm-linux-gnueabihf/arm-linux-gnueabihf/include/bits/in.h
  /home/abarcelos/miicare/third_party/include/bluetooth/hci.h
  /home/abarcelos/miicare/third_party/include/bluetooth/hci_lib.h
+ /home/abarcelos/miicare/third_party/include/bluetooth/rfcomm.h
+ /home/abarcelos/miicare/third_party/include/bluetooth/sdp.h
+ /home/abarcelos/miicare/third_party/include/bluetooth/sdp_lib.h
  /home/abarcelos/miicare/third_party/include/json-c/json.h
  /home/abarcelos/miicare/third_party/include/json-c/arraylist.h
  /home/abarcelos/miicare/third_party/include/json-c/debug.h

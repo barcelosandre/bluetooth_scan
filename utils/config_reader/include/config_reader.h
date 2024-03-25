@@ -7,8 +7,8 @@ typedef struct Config {
     int max_devices;
     int scan_interval_minutes;
     int scan_duration_seconds;
-    char **devices_allowed;
-    size_t devices_allowed_count;
+    char **allowed_devices;
+    size_t allowed_devices_count;
 } Config;
 
 Config read_config(const char *filename);
